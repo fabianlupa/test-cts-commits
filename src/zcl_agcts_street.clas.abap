@@ -21,6 +21,6 @@ CLASS zcl_agcts_street IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD get_name.
-    rv_name = 'Every Street'. " Change
+    rv_name = 'Every Street'. " Change2
   ENDMETHOD.
 ENDCLASS.

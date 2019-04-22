@@ -21,6 +21,6 @@ CLASS zcl_agcts_house IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD get_owners.
-    INSERT NEW #( ) INTO TABLE rt_owners.
+    INSERT NEW #( ) INTO TABLE rt_owners. " Change
   ENDMETHOD.
 ENDCLASS.
